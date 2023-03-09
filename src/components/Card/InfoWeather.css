@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #51b4e8;
+  background: radial-gradient(50% 50% at 50% 50%, #d5f3ff 0%, #51b4e8 100%);
+}
+@media (min-width: 320px) {
+  .title {
+   width: 20px;
+    color: aliceblue;
+    font-size: 20px;
+    margin-top: 20px;
+    position: relative;
+    left: 30px;
+    top: 60px
+ 
+  }
+  .container__father {
+    font-size: 16px;
+    width:320px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 20px;
+    min-width: 320px;
+  }
+  .container__initial {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 70px 20px 20px 20px;
+    width: 320px;
+    height: 200px;
+    gap: 2px;
+    padding-left: 15px;
+    color: #026eed;
+    background-image: url("../../../public/img/Rectangle.png");
+    background-repeat: no-repeat;
+    background-size: 350px 200px;
+    border-radius: 26.7px;
+    box-shadow: 0px 4.854599475860596px 4.854599475860596px 0px #00000040;
+    font-size: 16px;
+  }
+  .container__img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 30px;
+    margin-top: 30px;
+  }
+  .container__winds {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .container__img-1 {
+    width: 50px;
+  }
+  button {
+    border-radius: 5px;
+    width: 120px;
+    height: 30px;
+    background: #38a0d8;
+    border-style: none;
+    font-size: 15px;
+    font-weight: 600;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+    padding-left: 5px;
+    margin-left: 130px;
+    
+  }
+  
+  .container__country {
+    display: flex;
+    width: 305px;
+    justify-content: space-around;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    gap:5px;
+  }
+  .container__descr {
+    text-transform: capitalize;
+  }
+
+}
+@media (min-width: 768px) {
+
+   .title {
+   width: 300px;
+   margin-top: 50px;
+   font-size: 32px;
+  }
+  .container__father {
+    width: 700px;
+    margin-top: 100px;
+  }
+  .container__initial {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   width: 700px;
+   height: 400px;
+   background-size: 710px 410px;
+  }
+  .container__temp{
+   width: 200px;
+   font-size: 50px;
+  }
+  .container__img {
+    width: 600px;
+  }
+  .container__winds {
+   width: 300px;
+   font-size: 22px;
+   gap: 15px;
+   margin-bottom: 50px;
+  }
+  .container__img-1 {
+    width: 170px;
+  }
+
+  button {
+   width: 160px;
+   height: 80px;
+   margin-left: 340px;
+  }
+  
+  .container__country {
+   width: 600px;
+   font-size: 20px;
+   margin-bottom: 30px;
+  }
+  .container__descr {
+    text-transform: capitalize;
+  }
+  
+}
